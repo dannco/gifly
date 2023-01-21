@@ -1,7 +1,7 @@
 # gifly
 For generating various gif particle animations.  
 Kind of bare-bones as far as projects go. Essentially giving particles instructions to move through space for a number of frames, and then make a gif animation out of those frames.  
-Image can be instructed to have the particle trails fade or "smoke", as illustradet in the examples.  
+Image can be instructed to have the particle trails fade or "smoke", as illustrated in the examples.  
 
 All particle types are derived from a base abstract class that has information about size, visibility, position (0,0 being top left corner), and color.  
 Types:  
@@ -14,5 +14,6 @@ Types:
   
 TODOs:
 - Some kind of interface that declares what components to add to the gif-animation, e.g. Json files with declaration of images and/or particles.
+- Enable animation using components like JPEG images, sprite sheets.
 - Isolate the pixels produced by each particle/component so that they can fade or smoke or whatever.
 - Integrate with GPU
